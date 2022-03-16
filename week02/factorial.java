@@ -1,7 +1,6 @@
 package week02;
 
 public class factorial {
-	//반복문
 	public static int fact1(int n) {
 		int tmp = 1;
 		for(int i = 2; i <= n; i++) {
@@ -10,7 +9,6 @@ public class factorial {
 		return tmp;
 	}
 	
-	//재귀함수
 	public static int fact2(int n) {
 		if(n == 0)
 			return 1;
