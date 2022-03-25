@@ -11,4 +11,4 @@ public interface ListInterface<E> {
 	public int len();
 	public boolean isEmpty();
 	public void clear();
-} // ì½”ë“œ 5-4
+} // ÄÚµå 5-4
