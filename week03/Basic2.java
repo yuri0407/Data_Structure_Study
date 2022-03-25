@@ -8,36 +8,36 @@ public class Basic2 {
 			System.out.println(i);
 		}
 		
-		//È¦¼ö Ãâ·ÂÇÏ±â
-		//ÇÁ¸°Æ® ÇÒ¼ö·Î Ãâ·Â
+		//í™€ìˆ˜ ì¶œë ¥í•˜ê¸°
+		//í”„ë¦°íŠ¸ í•¨ìˆ˜ë¡œ ì¶œë ¥
 		System.out.println("1 3 5 7 9");
 		
-		//for¹®À¸·Î Ãâ·Â
+		//forë¬¸ìœ¼ë¡œ ì¶œë ¥
 		for (int i = 1; i <= 10; i+=2) {
 			System.out.println(i);
 		}
 		
-		//if¹®À» »ç¿ëÇØ¼­ Ãâ·Â
+		//ifë¬¸ì„ ì‚¬ìš©í•´ì„œ ì¶œë ¥
 		for (int i = 1; i <= 10; i++) {
 			if(i%2 == 1)
 				System.out.println(i);
 		}
 		
-		//if¹®À» »ç¿ëÇØ¼­ Ãâ·Â(2)
+		//ifë¬¸ì„ ì‚¬ìš©í•´ì„œ ì¶œë ¥(2)
 		for (int i = 1; i <= 10; i++) {
 			if(i%2 == 0)
 				continue;
 			System.out.println(i);
 		}
 		
-		//¿À·ù ¿¹
+		//ì˜¤ë¥˜ ì˜ˆ
 		for (int k = 0; k < 10; k++) {
 			System.out.println(k);
 		}	
 //		System.out.println(k);
 		
 		
-		//while¹®À» »ç¿ëÇÏ¿© Ãâ·Â
+		//whileë¬¸ì„ ì‚¬ìš©í•˜ì—¬ ì¶œë ¥
 		int i = 1;
 		while(i<=10) {
 			if(i%2 == 0) {
